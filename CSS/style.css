@@ -1,4 +1,5 @@
 body{
+  background: fixed;
   color: #252323;
   font-family: "Poppins", sans-serif;
   font-size: 14px;
@@ -10,8 +11,8 @@ body{
   padding:10px;
 }
 header{
-  background-color: whitesmoke;
-  color: #2C2A58;
+  background-color: rgb(15, 15, 77);
+  color: #454361;
   text-align: left;
   padding: auto;
 }
@@ -47,8 +48,8 @@ video{
   overflow-clip-margin: content-box;
   overflow: clip;
 }
-.video-container{
-  
+.container{
+  text-align: left;
 }
 
 .video-text{
@@ -90,9 +91,15 @@ video{
  .email-box{
     height:30px;
     margin-top: 10px;
+
+
  }
  .box-email{
-  margin-top: 0px;
+  display: flex;
+  align-items: center;
+  max-width: 300px;
+  margin-left: 2px;
+  margin-right: 35px;
  }
 .about-welcome-header{
   text-align: center;
@@ -160,4 +167,22 @@ video{
   font-size: 18px;
   padding-top: 1px;
   margin-top: 10px;
+}
+.end-footer{
+  color: #454361;
+}
+.email-button{
+  height: 35px;
+  width: 40px;
+  background-color: goldenrod;
+  padding-left: 0%;
+  margin-left: 2px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  color: #454361;
+  border-color: #454361;
+  text-align: center;
+
 }
